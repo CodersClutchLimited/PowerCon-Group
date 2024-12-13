@@ -1,0 +1,127 @@
+<%- layout('layouts/boiler') %>
+
+    <style>
+        /* .drag {
+      margin-right: -279px !important;
+    } */
+
+        @media (min-width: 1025px) {
+            .house {
+                margin-left: -90px !important;
+            }
+        }
+
+        .secter {
+            margin-left: 100px !important;
+            margin-right: 100px !important;
+            margin-top: -100px !important;
+        }
+
+        .info {
+            padding-left: 80px;
+            padding-right: 80px;
+
+        }
+    </style>
+
+
+
+    <div class="banner h-96 flex flex-row"> <!-- Changed h-80 to h-96 -->
+
+        <div class="bg-darker-blue h-full w-2/4 flex items-center flex-col justify-center p-4">
+            <p class="house mb-5 -ml-14 text-sm font-medium text-white"> <a href="/"><i
+                        class="fas fa-house mr-2"></i></a>• <a href="/company">Company</a>
+                • Corporate Info</p>
+            <div class="drag text-5xl font-bold z-50 text-white right-0 -mr-10">Corporate Info
+            </div>
+        </div>
+
+        <div class="relative h-full w-3/4">
+            <img src="https://img.freepik.com/free-photo/african-american-logistics-managers-team-dicussing-goods-distribution-warehouse-reception-post-office-men-woman-workers-planning-stock-supply-while-chatting-counter-desk_482257-59698.jpg?ga=GA1.1.1951979353.1732287376&semt=ais_hybrid"
+                class="object-cover h-full w-full" alt="">
+        </div>
+    </div>
+
+    <section class="secter px-[100px] py-10 flex justify-center">
+        <div class="w-full lg:w-7/12 bg-white z-50">
+            <div class="text-center mb-3 pt-10">
+                <h2 class="text-4xl font-bold text-red-600">Profile and History</h2>
+            </div>
+            <div class="info text-gray-700 leading-relaxed p-8 space-y-4 px-10 text-justify">
+                <p>
+                    Reynolds Construction Company (Nigeria) Limited is a civil engineering construction company
+                    executing projects in various sectors of Nigeria such as infrastructure, power, and oil & gas.
+                </p>
+                <p>
+                    Reynolds Construction Company (Nigeria) Limited is a subsidiary of <span class="font-semibold">SBI
+                        International Holdings AG (SBI)</span>, whose headquarters is in Switzerland. SBI is a
+                    transnational construction and development group, with subsidiaries in several countries of the
+                    world.
+                </p>
+                <p>
+                    The Group's projects span the globe with a concentration of activities in the following regions:
+                </p>
+                <ul class="list-disc list-inside">
+                    <li>Africa - Nigeria, Ivory Coast, Ghana, Togo, Benin, Cameroon, Kenya, Uganda</li>
+                    <!-- Add more items here if needed -->
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <div class="flex items-start justify-center h-[55vh] mt-[15vh] ml-3 mr-3">
+        <!-- Left (smaller) box -->
+        <div class="w-1/12 h-[50%] bg-darker-blue"></div>
+
+        <!-- Middle (second-largest) box with an image -->
+        <div class="flex-1 h-full bg-blue-200 mx-4">
+            <img src="https://img.freepik.com/premium-photo/group-multi-ethnic-engineer-construction-site-worker-meeting-workplace_255667-72577.jpg?ga=GA1.1.1951979353.1732287376&semt=ais_hybrid"
+                alt="Image" class="w-full h-full object-cover">
+        </div>
+
+        <!-- Right (largest) box -->
+        <div class="w-2/5 h-full hidden md:block">
+            <h1 class="text-2xl font-semibold text-darker-blue mb-1 p-4">Our experience over the past period.</h1>
+            <p class=" text-[16px] leading-relaxed font-medium text-gray-700 p-4">The company was founded in 2509, over
+                50 years, has performed more than 1,000 construction projects worth
+                more than 40,000 million baht by the work they are all broadly accepted. both from employers whether
+                they are private. Or the relevant authorities Including works it is satisfied that the public benefit
+                from the success of the project, the company is proud to have the opportunity to work with great service
+                the people of Thailand.</p>
+        </div>
+    </div>
+    <!-- paragraph fallback -->
+    <div class="w-full lg:w-2/5 h-full p-3 block lg:hidden">
+        <h1 class="text-2xl font-semibold text-darker-blue mb-1 p-4">Our experience over the past period.</h1>
+        <p class="text-[16px] leading-relaxed font-medium text-gray-700 p-4">
+            The company was founded in 2509, over 50 years, has performed more than 1,000 construction projects worth
+            more than 40,000 million baht by the work they are all broadly accepted. both from employers whether they
+            are private. Or the relevant authorities Including works it is satisfied that the public benefit
+            from the success of the project, the company is proud to have the opportunity to work with great service
+            the people of Thailand.
+        </p>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="flex items-center justify-center">
+        <div class="text-center p-6">
+            <div class="text-teal font-bold italic text-4xl mb-6 mt-6">PowerCon Group</div>
+            <div class="contact align-middle mb-4">
+                <a href="/contact" class="contact-link">
+                    Contact<i class="fas fa-arrow-right ml-2 font-medium"></i>
+                </a>
+            </div>
+            <div class="text-blue-500 text-xl mb-8">02 589 8882 5</div>
+            <div class="text-gray-500 mb-4">
+                68/12 CEC Building, 7th Fl Latyeo, Jatujak, Bangkok 10900
+            </div>
+        </div>
+    </div>

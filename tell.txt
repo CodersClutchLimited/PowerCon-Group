@@ -1,0 +1,57 @@
+        <div class="flex justify-center mx-4 mb-8">
+            <div class="grid grid-cols-3 gap-5 w-full max-w-screen-xl">
+              <!-- Card 1 -->
+              <div class="dev bg-white p-8 relative h-[530px] border border-black group overflow-hidden">
+                <h2 class="title text-2xl font-bold mb-4 transition-colors duration-500 group-hover:text-white z-10">
+                  Leverage FinTech expertise
+                </h2>
+                <p class="description transition-opacity duration-500 group-hover:text-gray-300 z-10">
+                  Our developers are here to take care of your entire FinTech project or help out with specific parts. They'll blend right into your team and fill the skill gaps.
+                </p>
+                <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">
+                  <button style="white-space: nowrap;" class="bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 min-w-[250px]">
+                    Request staff augmentation
+                  </button>
+                </div>
+          
+                <!-- Dark blur overlay -->
+                <div class="dark-overlay absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              </div>
+          
+              <!-- Card 2 -->
+              <div class="dev bg-white p-8 relative h-[530px] border border-black group overflow-hidden">
+                <h2 class="title text-2xl font-bold mb-4 transition-colors duration-500 group-hover:text-white z-10">
+                  Hire a dedicated FinTech expert team
+                </h2>
+                <p class="description transition-opacity duration-500 group-hover:text-gray-300 z-10">
+                  Our FinTech team is ready to roll the moment you say "go". We handle any task thrown at us – no matter how challenging – with your managers at the helm.
+                </p>
+                <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">
+                  <button style="white-space: nowrap;" class="bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 min-w-[250px]">
+                    Request a dedicated team
+                  </button>
+                </div>
+          
+                <!-- Dark blur overlay -->
+                <div class="dark-overlay absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              </div>
+          
+              <!-- Card 3 -->
+              <div class="dev bg-white p-8 relative h-[530px] border border-black group overflow-hidden">
+                <h2 class="title text-2xl font-bold mb-4 transition-colors duration-500 group-hover:text-white z-10">
+                  Let us handle your FinTech project
+                </h2>
+                <p class="description transition-opacity duration-500 group-hover:text-gray-300 z-10">
+                  Let us take care of your project. From setup to optimization, we've got everything under control. You can focus on your business while we handle the tech details.
+                </p>
+                <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">
+                  <button style="white-space: nowrap;" class="bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 min-w-[250px]">
+                    Request project outsourcing
+                  </button>
+                </div>
+          
+                <!-- Dark blur overlay -->
+                <div class="dark-overlay absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              </div>
+            </div>
+          </div>

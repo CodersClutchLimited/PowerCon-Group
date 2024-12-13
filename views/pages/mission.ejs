@@ -1,0 +1,149 @@
+<%- layout('layouts/boiler') %>
+
+  <style>
+    .dragme {
+      margin-left: -250px !important;
+      margin-right: 50px !important;
+    }
+
+    .drag {
+      margin-right: -279px !important;
+    }
+
+    @media (min-width: 1025px) {
+      .house {
+        margin-left: -90px !important;
+      }
+    }
+    .hilux {
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-bottom: 100px;
+
+    }
+
+    .hen {
+      padding-left: 90px;
+      padding-top: 100px;
+      padding-bottom: 20px;
+    }
+
+    .vision {
+      margin-bottom: 70px;
+      margin-top: 70px;
+      margin-left: 50px;
+    }
+  </style>
+
+
+  <div class="banner h-96 flex flex-row"> <!-- Changed h-80 to h-96 -->
+
+    <div class="bg-darker-blue h-full w-2/4 flex items-center flex-col justify-center p-4">
+      <p class="house mb-5 lg:-ml-14 text-sm font-medium text-white"> <a href="/"><i class="fas fa-house mr-2"></i></a>•
+        <a href="/company">Company</a>
+        • Vision, Mission & Core Value</p>
+      <div class="drag text-5xl font-bold z-50 text-white right-0 -mr-10">
+        Vision, Mission & Core Value
+      </div>
+    </div>
+
+    <div class="relative h-full w-3/4">
+      <img
+        src="https://img.freepik.com/premium-photo/team-electrical-engineers-inspecting-solar-panels-hundred-acres-grass-rooftop-energy-storage-station-evening-after-completing-daily-work-tasks-with-setting-sun_1214049-745.jpg?ga=GA1.1.1951979353.1732287376&semt=ais_hybrid"
+        class="object-cover h-full w-full opacity-75" alt="">
+    </div>
+  </div>
+
+
+
+
+  <div class="vision mt-6 mb-6 flex">
+    <div class="ml-12 mt-8 mb-10">
+      <h2 class="text-2xl font-bold text-blue-900">VISION</h2>
+      <p class="text-xl text-gray-800 mt-4 italic">
+        <span class="text-5xl text-spring-green"><i class="fa-solid fa-quote-left"></i></span>
+        Holistic Construction Solutions & Products Provider to Civilize a Better Way of Life for all.
+        <span class="text-5xl text-spring-green"><i class="fa-solid fa-quote-right"></i></span>
+      </p>
+    </div>
+
+  </div>
+
+
+  <div class="bg-gray-400 flex h-screen justify-center items-center">
+    <!-- Image Section -->
+    <img
+      src="https://img.freepik.com/free-photo/two-male-engineers-looking-blueprint_23-2147842989.jpg?ga=GA1.1.1951979353.1732287376&semt=ais_hybrid"
+      class="h-full w-3/4 object-cover pl-8 pt-16 pb-16 rounded-lg shadow-lg" alt="">
+
+    <!-- Card Section -->
+    <div class="dragme bg-dark-blue text-white p-8 w-1/2 ml-[-150px] pr-8 shadow-lg">
+      <div class="flex flex-col items-start space-y-4 p-4">
+        <p class="text-lg font-medium">
+          <span class="text-teal font-bold text-2xl mr-2">01</span> We are here to build great things.
+        </p>
+        <p class="text-lg font-medium">
+          <span class="text-teal font-bold text-2xl mr-2">02</span> Challenge the status-quo with innovative effort &
+          technology.
+        </p>
+        <p class="text-lg font-medium">
+          <span class="text-teal font-bold text-2xl mr-2">03</span> Pass on better world for next generation.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div
+    style="background: url(/images/bg-core-value.jpg); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+    <h1 class="hen uppercase font-bold pt-10 text-4xl ml-6  text-white">Core Values</h1>
+    <!-- Flex container -->
+    <div class="hilux flex flex-wrap lg:flex-nowrap gap-4 px-4">
+      <!-- Flex items -->
+      <div class="w-full lg:flex-1 p-4 rounded-lg text-white">
+        <h2 class="text-2xl font-bold"><span class="text-6xl font-bold">C</span>ommitment</h2>
+        <p>Dedication to our goals and determination to succeed. We encourage our staff to embrace these values,
+          focusing on intention, awareness of organizational direction, steadfastness in work, and driving mission goals
+          towards successful outcomes.</p>
+      </div>
+      <div class="w-full lg:flex-1 p-4 rounded-lg text-white">
+        <h2 class="text-2xl font-bold"><span class="text-6xl font-bold">I</span>nnovation</h2>
+        <p>Utilizing knowledge, creativity, skills, and technology for development and progress in processes, products,
+          or services, enhancing competitiveness in terms of time, cost, quality, safety, resource efficiency, and
+          sustainability.</p>
+      </div>
+      <div class="w-full lg:flex-1 p-4 rounded-lg text-white">
+        <h2 class="text-2xl font-bold"><span class="text-6xl font-bold">L</span>earning</h2>
+        <p>Continuous learning and development from education and experience to improve individual and organizational
+          capabilities, sharing knowledge for others' benefit, and cultivating a culture of endless learning.</p>
+      </div>
+
+      <div class="w-full lg:flex-1 p-4 rounded-lg text-white">
+        <h2 class="text-2xl font-bold"><span class="text-6xl font-bold">I</span>ntegrity</h2>
+        <p>Honesty and adherence to correctness, good morals, and ethics, including good corporate governance. This
+          fosters responsible, trustworthy, transparent, and accountable behavior among staff.</p>
+      </div>
+      <div class="w-full lg:flex-1 p-4 rounded-lg text-white">
+        <h2 class="text-2xl font-bold"><span class="text-6xl font-bold">V</span>alue People</h2>
+        <p>Recognizing and valuing every individual we work with, fostering trust and mutual respect, leading to
+          effective and harmonious collaboration.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="flex items-center justify-center">
+    <div class="text-center p-6">
+      <div class="text-teal font-bold italic text-4xl mb-6 mt-6">PowerCon Group</div>
+      <div class="contact align-middle mb-4">
+        <a href="/contact" class="contact-link">
+          Contact<i class="fas fa-arrow-right ml-2 font-medium"></i>
+        </a>
+      </div>
+      <div class="text-blue-500 text-xl mb-8">02 589 8882 5</div>
+      <div class="text-gray-500 mb-4">
+        68/12 CEC Building, 7th Fl Latyeo, Jatujak, Bangkok 10900
+      </div>
+    </div>
+  </div>
