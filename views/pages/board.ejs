@@ -17,6 +17,15 @@
 
         }
 
+        @media screen and (max-width: 768px) {
+            .secter {
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 0px !important;
+        }
+        }
+
+
         .modal-con {
             padding-left: 70px;
             padding-right: 70px;
@@ -33,7 +42,7 @@
 
     <div class="relative text-white">
         <img class="absolute inset-0 w-full h-full object-cover"
-            src="https://media.licdn.com/dms/image/v2/D5612AQFKpgX7_lyRAA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1678478368632?e=2147483647&v=beta&t=Hd4iS_0dfYCMOvenvWHl4MsT_hGSxPaz35dh39ofpmY"
+            src="/home/board.jpg"
             alt="">
 
         <div class="relative flex flex-col items-center justify-center min-h-screen bg-black bg-opacity-50">
@@ -51,20 +60,32 @@
     <section class="secter px-[100px] py-10 flex justify-center">
         <div class="w-full lg:w-7/12 bg-white z-50">
             <div class="text-center mb-3 pt-10">
-                <h2 class="cat text-3xl font-bold flex justify-center items-center mb-8 uppercase">Board of Directors</h2>
-                <p class=" para text-lg font-semibold flex justify-center items-center mb-4 uppercase text-center px-12">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis <br>
-                    reprehenderit impedit odio vitae.
-                </p>
+                <h2 class=" font-bold text-3xl pt-6 pb-6">BOARD OF DIRECTORS</h2>
             </div>
             <div class="board-image-container pl-2 pr-2">
-                <div class="modal-con grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1" id="team-container">
+                <div class="modal-con grid grid-cols-1 lg:grid-cols-3 gap-1" id="team-container">
                 </div>
-            </div>
+            </div>        
         </div>
     </section>
+    
+    <div class="flex items-center justify-center">
+        <div class="text-center p-6">
+            <div class="flex items-center justify-center"><img src="/images/whiteb.png"
+                alt="Image" class="h-20"></div>
+            
 
-
+            <div class="contact align-middle mb-4 bg-red">
+                <a href="/contact" class="contact-link">
+                    Contact<i class="fas fa-arrow-right ml-2 font-medium"></i>
+                </a>
+            </div>
+            <div class="text-blue-500 text-xl mb-8">02 589 8882 5</div>
+            <div class="text-gray-500 mb-4">
+                68/12 CEC Building, 7th Fl Latyeo, Jatujak, Bangkok 10900
+            </div>
+        </div>
+    </div>
 
     <script>
         document.addEventListener("DOMContentLoaded", () => {

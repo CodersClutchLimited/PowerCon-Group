@@ -1,57 +1,58 @@
-        <div class="flex justify-center mx-4 mb-8">
-            <div class="grid grid-cols-3 gap-5 w-full max-w-screen-xl">
-              <!-- Card 1 -->
-              <div class="dev bg-white p-8 relative h-[530px] border border-black group overflow-hidden">
-                <h2 class="title text-2xl font-bold mb-4 transition-colors duration-500 group-hover:text-white z-10">
-                  Leverage FinTech expertise
-                </h2>
-                <p class="description transition-opacity duration-500 group-hover:text-gray-300 z-10">
-                  Our developers are here to take care of your entire FinTech project or help out with specific parts. They'll blend right into your team and fill the skill gaps.
-                </p>
-                <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">
-                  <button style="white-space: nowrap;" class="bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 min-w-[250px]">
-                    Request staff augmentation
-                  </button>
-                </div>
-          
-                <!-- Dark blur overlay -->
-                <div class="dark-overlay absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              </div>
-          
-              <!-- Card 2 -->
-              <div class="dev bg-white p-8 relative h-[530px] border border-black group overflow-hidden">
-                <h2 class="title text-2xl font-bold mb-4 transition-colors duration-500 group-hover:text-white z-10">
-                  Hire a dedicated FinTech expert team
-                </h2>
-                <p class="description transition-opacity duration-500 group-hover:text-gray-300 z-10">
-                  Our FinTech team is ready to roll the moment you say "go". We handle any task thrown at us – no matter how challenging – with your managers at the helm.
-                </p>
-                <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">
-                  <button style="white-space: nowrap;" class="bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 min-w-[250px]">
-                    Request a dedicated team
-                  </button>
-                </div>
-          
-                <!-- Dark blur overlay -->
-                <div class="dark-overlay absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              </div>
-          
-              <!-- Card 3 -->
-              <div class="dev bg-white p-8 relative h-[530px] border border-black group overflow-hidden">
-                <h2 class="title text-2xl font-bold mb-4 transition-colors duration-500 group-hover:text-white z-10">
-                  Let us handle your FinTech project
-                </h2>
-                <p class="description transition-opacity duration-500 group-hover:text-gray-300 z-10">
-                  Let us take care of your project. From setup to optimization, we've got everything under control. You can focus on your business while we handle the tech details.
-                </p>
-                <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">
-                  <button style="white-space: nowrap;" class="bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 min-w-[250px]">
-                    Request project outsourcing
-                  </button>
-                </div>
-          
-                <!-- Dark blur overlay -->
-                <div class="dark-overlay absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              </div>
+<%- layout('layouts/boiler') %>
+<div class="text-white font-sans min-h-screen flex">
+    <!-- Main Container with reduced height -->
+    <div class="flex w-full main-page"> <!-- Reduced height using max-h -->
+
+        <!-- Left Content Section with padding -->
+        <div class="w-1/2 flex flex-col justify-between space-y-8 lefter h-full pb-10">
+            <!-- Header Section -->
+            <div class="mb-6 border-b border-gray-500 pb-8">
+                <h1 class="text-sm font-semibold tracking-widest uppercase mt-8 text-blue-800">What Makes Our Managed AWS Services Unique?</h1>
+                <p class="mt-8 text-xl font-bold">Get it right the first time, and you'll have a concrete foundation for a high-traffic site</p>
+                <p class="mt-8 text-gray-300">Our AWS management teams help you plan and build a powerful infrastructure with quality automation tools for a high-performing website</p>
             </div>
-          </div>
+
+            <!-- Services Section -->
+            <div class="grid grid-cols-1 gap-8">
+                <!-- Row 1 -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 border-b border-gray-500 pb-8">
+                    <div>
+                        <h2 class="text-xl font-semibold">99.9% Uptime</h2>
+                        <p class="mt-2 text-gray-300">No more sleepless nights for you or your team. With PointClick’s AWS management services, you’re guaranteed 99.9% uptime with 24/7 monitoring.</p>
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-semibold">Cloud Automation</h2>
+                        <p class="mt-2 text-gray-300">We keep you secure and dependable with advanced automation. Our engineers create “self-healing” configurations that automatically detect and correct potential faults in your system.</p>
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-semibold">Control Your Cloud</h2>
+                        <p class="mt-2 text-gray-300">With constant access to detailed financial, operational, and technical metrics for all AWS infrastructure and resources, you’re always in the driver’s seat.</p>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div>
+                        <h2 class="text-xl font-semibold">Security Management</h2>
+                        <p class="mt-2 text-gray-300">Our Network Operations Center and advanced automation software keep your cloud thoroughly monitored and secure.</p>
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-semibold">Compliance Support</h2>
+                        <p class="mt-2 text-gray-300">Our Network Operations Center and advanced automation software keep your cloud thoroughly monitored and secure.</p>
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-semibold">Unconditional Support</h2>
+                        <p class="mt-2 text-gray-300">You’re never alone with our support team by your side. We’re here for you, unconditionally, 24 hours a day — every day of the year. Pick up the phone and call us directly anytime.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Image Section with padding -->
+        <div class="w-1/2 bg-gray-200 p-12 righter h-full hidden md:block">
+            <img src="https://img.freepik.com/free-photo/colleagues-working-together-project_23-2149286162.jpg?t=st=1734617255~exp=1734617855~hmac=2c3b53d28947b5dcf3cf9f647c94f5161e1e013931610d6d70ec35e165d9d1c4" alt="Team working" class="object-cover h-full w-full">
+        </div>        
+    </div>
+</div>
+
+

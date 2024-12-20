@@ -1,411 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cloud Computing</title>
-    <!-- Tailwind CSS Play CDN -->
-    <link rel="stylesheet" href="tester.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Tailored Services</title>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- Tailwind CSS (Optional: Include if you're using Tailwind for styling) -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    .iconhover:hover {
+      background-color: #1a202c; /* Change to your desired hover color */
+    }
+    .swiper-container {
+      padding: 2rem 0;
+    }
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
 </head>
+<body class="bg-gray-100">
 
-<body class="m-0 p-0 max-w-full overflow-x-hidden">
-    <!-- SECTION -->
-    <div class="back flex flex-col md:flex-row items-center md:items-start gap-8 p-6">
-        <!-- TEXTS SECTION -->
-        <div class="md:w-1/2 text-left diver">
-            <h1 class="text-5xl font-bold mb-4">Cloud Services And Solutions</h1>
-            <p class="text-gray-700 mb-4  text-lg leading-relaxed">
-                Transform your business through the cloud and release new ideas, new solutions, and new value. We offer
-                customized cloud services and solutions to fit your business needs and guarantee a smooth implementation
-                for maximum security and flexibility. Let us be your cloud service solutions partner who helps redesign
-                your IT architecture and enhance your digital journey.
-            </p>
-            <ol class="pl-6 space-y-2 text-lg text-gray-700">
-                <li><span class="mr-2 text-green-600 font-semibold">✓</span>Completely Risk-Free Start</li>
-                <li><span class="mr-2 text-green-600 font-semibold">✓</span>96% Employee Retention</li>
-                <li><span class="mr-2 text-green-600 font-semibold">✓</span>Transparency of Cooperation</li>
-                <li><span class="mr-2 text-green-600 font-semibold">✓</span>Agile Engagement, Swift Onboarding</li>
-            </ol>
-
-            <button class="round-lg border border-2 bg-yellow-600 p-3 pl-6 pr-6 round-lg">Book A Call</button>
+  <div class="text-center py-16 mt-12">
+    <h2 class="text-2xl font-bold mb-2 relative inline-block">
+      OUR TAILORED SERVICES
+      <span class="custom-underline c"></span>
+    </h2>
+    <div class="swiper-container mt-12 mx-5 sm:mx-8">
+      <div class="swiper-wrapper">
+        <!-- Transportation -->
+        <div class="swiper-slide">
+          <a href="/services/transportation" class="flex flex-col items-center p-6 rounded-lg">
+            <div class="bg-black iconhover w-32 h-32 rounded-full flex items-center justify-center">
+              <img src="/icons/route.png" alt="Transportation Icon" class="h-16">
+            </div>
+            <p class="mt-4 text-base font-bold">TRANSPORTATION</p>
+          </a>
         </div>
-
-        <!-- IMAGE SECTION -->
-        <div class="md:w-1/3 imageDiv">
-            <img src="https://img.freepik.com/free-photo/portrait-smiling-young-african-man-leather-jacket_171337-1472.jpg?ga=GA1.1.1951979353.1732287376&semt=ais_tags_boosted"
-                alt="Smiling Young African Man in Leather Jacket" class="object-cover h-[600px] w-[500px] rounded-lg">
+        <!-- Water Resources -->
+        <div class="swiper-slide">
+          <a href="/services/water-resources" class="flex flex-col items-center p-6 rounded-lg">
+            <div class="bg-black iconhover w-32 h-32 rounded-full flex items-center justify-center">
+              <img src="/icons/water.png" alt="Water Resources Icon" class="h-16">
+            </div>
+            <p class="mt-4 text-base font-bold">WATER RESOURCES</p>
+          </a>
         </div>
+        <!-- Power & Engineering -->
+        <div class="swiper-slide">
+          <a href="/services/power-eng" class="flex flex-col items-center p-6 rounded-lg">
+            <div class="bg-black iconhover w-32 h-32 rounded-full flex items-center justify-center">
+              <img src="/icons/power.png" alt="Power & Engineering Icon" class="h-16">
+            </div>
+            <p class="mt-4 text-base font-bold">POWER & ENGINEERING</p>
+          </a>
+        </div>
+        <!-- Residential Construction -->
+        <div class="swiper-slide">
+          <a href="/services/residential-const" class="flex flex-col items-center p-6 rounded-lg">
+            <div class="bg-black iconhover w-32 h-32 rounded-full flex items-center justify-center">
+              <img src="/icons/real-estate.png" alt="Residential Construction Icon" class="h-16">
+            </div>
+            <p class="mt-4 text-base font-bold">RESIDENTIAL CONSTRUCTION</p>
+          </a>
+        </div>
+        <!-- Industrial Construction -->
+        <div class="swiper-slide">
+          <a href="/services/industrial-const" class="flex flex-col items-center p-6 rounded-lg">
+            <div class="bg-black iconhover w-32 h-32 rounded-full flex items-center justify-center">
+              <img src="/icons/industrial-park.png" alt="Industrial Construction Icon" class="h-16">
+            </div>
+            <p class="mt-4 text-base font-bold">INDUSTRIAL CONSTRUCTION</p>
+          </a>
+        </div>
+        <!-- Specialized Services -->
+        <div class="swiper-slide">
+          <a href="/services/specialized" class="flex flex-col items-center p-6 rounded-lg">
+            <div class="bg-black iconhover w-32 h-32 rounded-full flex items-center justify-center">
+              <img src="/icons/privilege.png" alt="Specialized Services Icon" class="h-16">
+            </div>
+            <p class="mt-4 text-base font-bold">SPECIALIZED SERVICES</p>
+          </a>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
     </div>
+  </div>
 
-    <!-- SECTION -->
-    <div>
-
-        <div class="pent w-full grid grid-cols-1 lg:grid-cols-2 items-center md:gap-4 sm:gap-4">
-            <!-- Left Circle Section -->
-            <div class="flex justify-center items-center">
-                <div class="circ rounded-full">
-                    <img src="https://img.freepik.com/free-photo/hand-pointing-currency-blockchain-technology-background_53876-102966.jpg?ga=GA1.1.1951979353.1732287376&semt=ais_hybrid" alt="" class="object-cover w-full h-[100%] rounded-full">
-                </div> <!-- Adjusted size to make the circle bigger -->
-            </div>
-        
-            <!-- Right Text Section -->
-            <div class="flex flex-col justify-center items-center p-4 w-full">
-                <!-- Title -->
-                <h2 class="ex text-2xl md:text-4xl font-bold text-center mb-2">
-                    Take Your Business to New Heights with <br>Our Top-Notch Cloud Solutions
-                </h2>
-        
-                <!-- Underline -->
-                <div class="under w-12 md:w-8 bg-black text-center items-center mb-8 rounded-lg"></div>
-        
-                <!-- Paragraph -->
-                <p class="ex w-full md:text-base lg:text-xl leading-relaxed text-gray-900 text-center max-w-screen-sm md:max-w-screen-md text-justify">
-                    Elevate your business to the next level with eSparkBiz’s computing and cloud services and products.
-                    In an increasingly digital world, cloud services represent one of the most valuable business tools that
-                    our expert team adapts and implements to provide the highest security for customers’ data.
-                    Simultaneously, we give the opportunity to enhance development, optimize work, and promote innovation.
-                </p>
-            </div>
-        </div>
-        
-
-        <div class="flex flex-row w-full">
-            <div class="list w-1/2 ">
-                <ol class="text-xl space-y-10 font-bold text-white ">
-                    <li><a href="">Cloud Backup Services</a></li>
-                    <li><a href="">Cloud Security Services</a></li>
-                    <li><a href="">Cloud Computing Services</a></li>
-                    <li><a href="">Hybrid Cloud Services</a></li>
-                    <li><a href="">Cloud Storage Services</a></li>
-                    <li><a href="">Private Cloud Services</a></li>
-                    <li><a href="">Cloud Hosting Services</a></li>
-                    <li><a href="">Cloud Business Services</a></li>
-                </ol>
-            </div>
-            <div class="content w-1/2 bg-blue-800">
-                <div class="p-8">
-                    <h3 class="text-white text-3xl font-bold mb-8">Private Cloud Services</h3>
-                    <p class="leading-relaxed text-lg text-white text-justify mb-8">Transform your organization with
-                        easy
-                        migration, improved performance and increased security with
-                        Private Cloud Services. Looking at our flexible and scalable services, you will see that
-                        eSparkBiz provides private cloud solutions according to your requirements.</p>
-
-                    <p class="leading-relaxed text-lg text-white text-justify">We specialize in the virtualization of
-                        infrastructure, the reengineering of applications, and the management of private cloud services.
-                        Experience fully dedicated, <a href="" class="text-green-900 underline">cloud cost optimization
-                            solutions</a> with modern technologies at heart.
-                    </p>
-
-                    <div class="left">
-                        <h1 class="text-white text-2xl font-bold mb-8">Key benefits of Private Cloud Services :-</h1>
-                        <ol class="text-white">
-                            <li><i class="fas fa-check-circle mr-2"></i>Customized private cloud solutions</li>
-                            <li><i class="fas fa-check-circle mr-2"></i>Infrastructure virtualization</li>
-                            <li><i class="fas fa-check-circle mr-2"></i>Application re-engineering</li>
-                            <li><i class="fas fa-check-circle mr-2"></i>Managed cloud operations</li>
-                            <li><i class="fas fa-check-circle mr-2"></i>Cost-effective cloud capabilities</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- SECTION -->
-    <div class="hey w-full flex justify-center items-center flex-col">
-        <div class="diver2 flex flex-col justify-center items-center p-4">
-            <!-- Title -->
-            <h2 class="ex text-2xl md:text-4xl font-bold text-center mb-2">
-                Unlocking the true cloud value with expert deployments
-            </h2>
-
-            <!-- Underline -->
-            <div class="under w-12 md:w-8 bg-black text-center items-center mb-8 rounded-lg"></div>
-
-            <!-- Paragraph -->
-            <p
-                class="ex el text-sm md:text-base lg:text-lg leading-relaxed text-gray-900 text-center max-w-screen-sm md:max-w-screen-md">
-                We deliver a range of cloud services and solutions selectively focusing and handling different kinds of
-                cloud strategies to utilize the capacity of the cloud setup.
-            </p>
-        </div>
-
-
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 padme">
-            <!-- Card 1 -->
-            <div class="">
-                <div class="pad p-10">
-                    <h3 style="white-space: nowrap;"
-                        class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                        onclick="toggleContent(1)">
-                        <div>
-                            <i class="ri-cloud-line mr-3 text-4xl pr-10"></i>Public Cloud Deployments
-                        </div>
-                        <i id="arrow-1" class="ri-arrow-drop-down-line text-4xl ml-4 pl-3"></i>
-                    </h3>
-                    <div id="content-1" class="text-gray-900 leading-relaxed pt-6 text-center hidden">
-                        When it comes to the public cloud, eSparkBiz specializes in AWS, AZURE, and GCP cloud solutions.
-                        Our services of cloud-based solutions provide maximum output while developing plans for more
-                        effective functioning as per the scalability and cost sensitiveness of business.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="">
-                <div class="pad p-10">
-                    <h3 style="white-space: nowrap;"
-                        class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                        onclick="toggleContent(2)">
-                        <div>
-                            <i class="ri-cloud-line mr-3 text-4xl pr-10"></i>Public Cloud Deployments
-                        </div>
-                        <i id="arrow-2" class="ri-arrow-drop-down-line text-4xl ml-4 pl-3"></i>
-                    </h3>
-                    <div id="content-2" class="text-gray-900 leading-relaxed pt-6 text-center hidden">
-                        When it comes to the public cloud, eSparkBiz specializes in AWS, AZURE, and GCP cloud solutions.
-                        Our services of cloud-based solutions provide maximum output while developing plans for more
-                        effective functioning as per the scalability and cost sensitiveness of business.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="">
-                <div class="pad p-10">
-                    <h3 style="white-space: nowrap;"
-                        class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                        onclick="toggleContent(3)">
-                        <div>
-                            <i class="ri-cloud-line mr-3 text-4xl pr-10"></i>Public Cloud Deployments
-                        </div>
-                        <i id="arrow-3" class="ri-arrow-drop-down-line text-4xl ml-4 pl-3"></i>
-                    </h3>
-                    <div id="content-3" class="text-gray-900 leading-relaxed pt-6 text-center hidden">
-                        When it comes to the public cloud, eSparkBiz specializes in AWS, AZURE, and GCP cloud solutions.
-                        Our services of cloud-based solutions provide maximum output while developing plans for more
-                        effective functioning as per the scalability and cost sensitiveness of business.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="">
-                <div class="pad p-10">
-                    <h3 style="white-space: nowrap;"
-                        class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                        onclick="toggleContent(4)">
-                        <div>
-                            <i class="ri-cloud-line mr-3 text-4xl pr-10"></i>Public Cloud Deployments
-                        </div>
-                        <i id="arrow-4" class="ri-arrow-drop-down-line text-4xl ml-4 pl-3"></i>
-                    </h3>
-                    <div id="content-4" class="text-gray-900 leading-relaxed pt-6 text-center hidden">
-                        When it comes to the public cloud, eSparkBiz specializes in AWS, AZURE, and GCP cloud solutions.
-                        Our services of cloud-based solutions provide maximum output while developing plans for more
-                        effective functioning as per the scalability and cost sensitiveness of business.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 5 -->
-            <div class="">
-                <div class="pad p-10">
-                    <h3 style="white-space: nowrap;"
-                        class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                        onclick="toggleContent(5)">
-                        <div>
-                            <i class="ri-cloud-line mr-3 text-4xl pr-10"></i>Public Cloud Deployments
-                        </div>
-                        <i id="arrow-5" class="ri-arrow-drop-down-line text-4xl ml-4 pl-3"></i>
-                    </h3>
-                    <div id="content-5" class="text-gray-900 leading-relaxed pt-6 text-center hidden">
-                        When it comes to the public cloud, eSparkBiz specializes in AWS, AZURE, and GCP cloud solutions.
-                        Our services of cloud-based solutions provide maximum output while developing plans for more
-                        effective functioning as per the scalability and cost sensitiveness of business.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 6 -->
-            <div class="">
-                <div class="pad p-10">
-                    <h3 style="white-space: nowrap;"
-                        class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                        onclick="toggleContent(6)">
-                        <div>
-                            <i class="ri-cloud-line mr-3 text-4xl pr-10"></i>Public Cloud Deployments
-                        </div>
-                        <i id="arrow-6" class="ri-arrow-drop-down-line text-4xl ml-4 pl-3"></i>
-                    </h3>
-                    <div id="content-6" class="text-gray-900 leading-relaxed pt-6 text-center hidden">
-                        When it comes to the public cloud, eSparkBiz specializes in AWS, AZURE, and GCP cloud solutions.
-                        Our services of cloud-based solutions provide maximum output while developing plans for more
-                        effective functioning as per the scalability and cost sensitiveness of business.
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- SECTION -->
-    <div class="flex flex-col justify-center items-center mt-12 bg-gray-200 mb-12">
-        <!-- Section Header -->
-        <div class="section-header flex flex-col justify-center items-center text-center mb-12 p-12">
-            <h2 class="text-4xl font-bold text-gray-900 mb-4">Elite Partnerships for Premier Cloud Solutions</h2>
-            <p class="text-lg leading-relaxed text-gray-700">
-                We deliver a wide range of cloud services, specializing in tailored cloud strategies that optimize the
-                power of cloud technology.
-            </p>
-        </div>
-
-        <div class="cloud-services bg-white grid grid-cols-1 lg:grid-cols-3 pb-8 gap-12 rounded-lg mb-12 p-12">
-
-            <!-- Amazon Web Services -->
-            <div class="service-item flex flex-col justify-between items-center mb-8 px-6 py-8">
-                <img src="https://www.esparkinfo.com/wp-content/uploads/2024/06/Amazon_Web_Services_Logo-1.svg"
-                    alt="AWS Logo" class="h-20 w-20 mb-6">
-                <h3 class="text-2xl font-semibold text-gray-900 mb-4">Amazon Web Services</h3>
-                <p class="text-lg text-gray-800 mb-8 text-center">
-                    AWS offers a robust infrastructure, cost efficiency, scalability, and flexibility. Partner with
-                    eSparkBiz to enhance your cloud services, whether for government, startups, or large enterprises.
-                </p>
-                <a href="#" class="bg-yellow-600 text-white py-2 px-6 rounded-lg w-full text-center mt-auto">Hire AWS
-                    Developers</a>
-            </div>
-
-            <!-- Microsoft Azure -->
-            <div class="service-item flex flex-col justify-between items-center mb-8 px-6 py-8">
-                <img src="https://www.esparkinfo.com/wp-content/uploads/2024/06/Microsoft_Azure_Logo-1.svg"
-                    alt="Azure Logo" class="h-20 w-20 mb-6">
-                <h3 class="text-2xl font-semibold text-gray-900 mb-4">Microsoft Azure</h3>
-                <p class="text-lg text-gray-800 mb-8 text-center">
-                    Azure offers secure public cloud services with IaaS, PaaS, and SaaS solutions. With a broad network
-                    of data centers, eSparkBiz helps businesses manage data, compliance, and security on the cloud.
-                </p>
-                <a href="#" class="bg-yellow-600 text-white py-2 px-6 rounded-lg w-full text-center mt-auto">Hire Azure
-                    Developers</a>
-            </div>
-
-            <!-- Google Cloud Platform -->
-            <div class="service-item flex flex-col justify-between items-center mb-8 px-6 py-8">
-                <img src="https://www.esparkinfo.com/wp-content/uploads/2024/06/google-cloud-3-1.svg" alt="GCP Logo"
-                    class="h-20 w-20 mb-6">
-                <h3 class="text-2xl font-semibold text-gray-900 mb-4">Google Cloud Platform</h3>
-                <p class="text-lg text-gray-800 mb-8 text-center">
-                    Google Cloud Platform offers cutting-edge solutions in computing, storage, networking, and machine
-                    learning. eSparkBiz uses GCP’s innovative tools to deliver custom solutions and advanced analytics.
-                </p>
-                <a href="#" class="bg-yellow-600 text-white py-2 px-6 rounded-lg w-full text-center mt-auto">Hire Google
-                    Cloud Developers</a>
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="bg-gray-100 p-8 rounded-lg shadow-md mb-12 hr">
-        <!-- Title and Intro -->
-        <h2 class="text-2xl font-bold mb-4 text-center">Advanced Tech Stack for Integrated Cloud Services</h2>
-        <p class="text-gray-700 mb-8 text-center">At eSparkBiz, we pride ourselves in helping businesses make every
-            transition in the cloud environment with our special Cloud services.</p>
-
-        <!-- Mini Cards as Links -->
-        <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
-            <a href="#" class="mini-card bg-gray-200 p-4 rounded-lg shadow-sm text-center" data-target="data-content">
-                <i class="fa-solid fa-database text-2xl text-gray-900"></i>
-                <p class="text-gray-900 mt-2">Data</p>
-            </a>
-            <a href="#" class="mini-card bg-gray-200 p-4 rounded-lg shadow-sm text-center"
-                data-target="database-content">
-                <i class="fa-solid fa-database text-2xl text-gray-900"></i>
-                <p class="text-gray-900 mt-2">Database</p>
-            </a>
-            <a href="#" class="mini-card bg-gray-200 p-4 rounded-lg shadow-sm text-center" data-target="app-content">
-                <i class="fa-solid fa-mobile-screen-button text-2xl text-gray-900"></i>
-                <p class="text-gray-900 mt-2">Application</p>
-            </a>
-            <a href="#" class="mini-card bg-gray-200 p-4 rounded-lg shadow-sm text-center" data-target="server-content">
-                <i class="fa-solid fa-server text-2xl text-gray-900"></i>
-                <p class="text-gray-900 mt-2">Server</p>
-            </a>
-            <a href="#" class="mini-card bg-gray-200 p-4 rounded-lg shadow-sm text-center"
-                data-target="security-content">
-                <i class="fa-solid fa-shield-halved text-2xl text-gray-900"></i>
-                <p class="text-gray-900 mt-2">Security</p>
-            </a>
-            <a href="#" class="mini-card bg-gray-200 p-4 rounded-lg shadow-sm text-center"
-                data-target="modernization-content">
-                <i class="fa-solid fa-arrows-rotate text-2xl text-gray-900"></i>
-                <p class="text-gray-900 mt-2">Modernization</p>
-            </a>
-        </div>
-
-        <!-- Divider -->
-        <div class="h-[0.9px] w-full bg-gray-900 mb-6 mt-6"></div>
-
-        <!-- Content Section -->
-        <div class="flex flex-col md:flex-row justify-between items-start h-auto lg:ml-20">
-            <!-- Left Side: Text Content -->
-            <div class="w-full md:w-1/3 pr-4 mb-6 md:mb-0">
-                <h3 class="text-xl font-bold mb-4" id="content-title">Modernization</h3>
-                <p class="text-gray-700 mb-4 leading-relaxed" id="content-text">Let us help you update your application
-                    with cloud-native transformations <br> through AWS Lambda, Azure Functions, Kubernetes, and Docker.
-                </p>
-            </div>
-
-            <!-- Horizontal Divider for Mobile -->
-            <div class="border-b-2 border-dashed border-gray-800 w-full mb-4 md:hidden"></div>
-
-            <!-- Vertical Divider for Desktop -->
-            <div class="hidden md:block border-l-2 border-dashed border-gray-800 self-stretch mx-4"></div>
-
-            <!-- Right Side: AWS Services -->
-            <div class="flex flex-wrap w-full md:w-2/3 gap-2" id="right-side-content">
-                <p class="border border-1 bg-gray-200 rounded-lg p-2 w-full text-center">AWS Lambda</p>
-                <p class="border border-1 bg-gray-200 rounded-lg p-2 w-full text-center">Azure Functions</p>
-                <p class="border border-1 bg-gray-200 rounded-lg p-2 w-full text-center">Kubernetes</p>
-                <p class="border border-1 bg-gray-200 rounded-lg p-2 w-full text-center">Docker</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- SECTION -->
-    <div class="bg-gray-200 w-full flex items-center">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4">
-            <div class="hugs text-justify">
-                <h1 class="text-3xl text-gray-900 text-justify font-bold leading-relaxed">Seeking to Hire your Remote
-                    Developer?</h1>
-                <p class="text-sm text-gray-700 leading-relaxed text-center text-justify">During our more than 14-year journey, we
-                    have worked with over five hundred Fortune 500 companies and start-ups worldwide and have seamlessly
-                    delivered upwards of 1000 successful projects yielding desired results.</p>
-            </div>
-
-            <div class="men flex flex-row items-center justify-center md:mt-6">
-                <div class="circle flex flex-col items-center justify-center">
-                    <i class="ri-message-2-line text-3xl"></i>
-                    <a href="#" class="font-medium">Book free consultation</a>
-                </div>
-                <div class="circle flex flex-col items-center justify-center">
-                    <img src="https://img.freepik.com/premium-photo/happy-black-man-arms-crossed-office-portrait-corporate-motivation-company-about-us-profile-picture-smile-confident-mature-management-person-success-mindset-ceo-introduction_590464-171650.jpg?ga=GA1.1.1951979353.1732287376&semt=ais_hybrid" alt="" class="h-3 w-3">
-                    <p class="font-medium">Chintan Gor</p>
-                    <p>CTO, eSparkBiz</p>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-
-    <!-- Flowbite JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
-    <script src="/public/javascripts/mega.js"></script>
-    <script src="some.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+        },
+      });
+    });
+  </script>
 </body>
-
 </html>
